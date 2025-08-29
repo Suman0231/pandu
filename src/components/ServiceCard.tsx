@@ -25,7 +25,8 @@ export default function ServiceCard({ service }: { service: Service }) {
       <p className="text-gray-700 mt-3">{service.description}</p>
       <div className="mt-4 grid grid-cols-2 gap-3 text-sm text-gray-600">
         {service.duration && <div className="flex items-center gap-2"><Clock size={16}/> {service.duration}</div>}
-        {service.price && <div className="flex items-center gap-2"><NepaliRupee size={16}/> {service.price}</div>}
+        {service.price && <div className="flex items-center gap-2"><span>रु</span> {service.price}
+</div>}
       </div>
       {service.includes && service.includes.length > 0 && (
         <ul className="mt-4 space-y-1">
