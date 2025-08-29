@@ -48,7 +48,7 @@ export default function Contact() {
 
           <div className="flex gap-3">
             <button className="bg-primary-600 text-white px-5 py-3 rounded-lg" type="submit">WhatsApp बाट पठाउनुहोस्</button>
-            <a className="px-5 py-3 rounded-lg border border-primary-200" href="mailto:pandit@example.com">Email</a>
+            <a className="px-5 py-3 rounded-lg border border-primary-200" href="mailto:adhikarisahadev0@gmail.com">Email</a>
           </div>
         </form>
 
