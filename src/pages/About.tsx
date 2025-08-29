@@ -13,12 +13,9 @@ export default function About() {
         <div className="mt-6 grid md:grid-cols-2 gap-6">
           <div className="p-4 bg-white rounded-xl border border-primary-100">
             <div className="text-sm text-gray-500">Languages</div>
-            <div className="font-semibold text-gray-900">Hindi • Sanskrit • English</div>
+            <div className="font-semibold text-gray-900">Nepali • Sanskrit • English</div>
           </div>
-          <div className="p-4 bg-white rounded-xl border border-primary-100">
-            <div className="text-sm text-gray-500">Lineage / गुरु-परम्परा</div>
-            <div className="font-semibold text-gray-900">आचार्य xyz → पं. abc → पं. राजेश</div>
-          </div>
+         
         </div>
       </div>
     </>
