@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 font-semibold text-primary-700">
           <img src="/om.svg" className="w-8 h-8" alt="ॐ" />
-          <span>पं. राजेश शर्मा</span>
+          <span>सहदेब अधिकारी</span>
         </Link>
 
         <button className="md:hidden p-2" onClick={() => setOpen(v => !v)} aria-label="Toggle menu">
