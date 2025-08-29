@@ -27,7 +27,7 @@ export default function App() {
           </Routes>
         </main>
         <Footer />
-        <WhatsAppButton phone="919876543210" />
+        <WhatsAppButton phone="+977 9860384392" />
       </div>
     </BrowserRouter>
   )
