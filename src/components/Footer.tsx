@@ -17,7 +17,7 @@ export default function Footer() {
 
         <div>
           <h3 className="font-semibold mb-3">Contact</h3>
-          <ul className="space-y-2 text-primary-100">
+          <ul className="space-y-2 text-brown-100">
             <li className="flex items-center gap-2"><Phone size={16}/> +91 98765 43210</li>
             <li className="flex items-center gap-2"><Mail size={16}/> pandit@example.com</li>
             <li className="flex items-center gap-2"><MapPin size={16}/> Your City, India</li>
