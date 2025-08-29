@@ -13,7 +13,7 @@ export default function Contact() {
     const text = encodeURIComponent(
       `नमस्ते पण्डित जी,%0A%0Aनाम: ${name}%0Aफोन: ${phone}%0Aसेवा: ${service}%0Aतिथि: ${date}%0Aसन्देश: ${msg}`
     )
-    window.open(`https://wa.me/919876543210?text=${text}`, '_blank')
+    window.open(`https://wa.me/9779860384392?text=${text}`, '_blank')
   }
 
   return (
