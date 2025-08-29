@@ -33,7 +33,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-white/20 py-4 text-center text-sm text-primary-100">
+      <div className="border-t border-blue/20 py-4 text-center text-sm text-brown-100">
         With <Heart size={14} className="inline-block -mt-0.5"/> by tradition • © {new Date().getFullYear()}
       </div>
     </footer>
