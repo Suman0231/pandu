@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2 mb-3">
             <img src="/om.svg" className="w-8 h-8" alt="ॐ" />
-            <div className="font-bold text-lg">पं. राजेश शर्मा</div>
+            <div className="font-bold text-lg">सहदेब अधिकारी</div>
           </div>
           <p className="text-brown-100 leading-relaxed">
             वैदिक परम्पराअनुसार शुद्ध र विधिपूर्वक अनुष्ठान। गृहप्रवेश, विवाह संस्कार, श्राद्ध, हवन, कथा, तथा अनलाइन पूजा सेवाहरू।
