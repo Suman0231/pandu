@@ -20,7 +20,7 @@ export default function Footer() {
           <ul className="space-y-2 text-brown-100">
             <li className="flex items-center gap-2"><Phone size={16}/> +977 9860384392</li>
             <li className="flex items-center gap-2"><Mail size={16}/> adhikarisahadev0@gmail.com</li>
-            <li className="flex items-center gap-2"><MapPin size={16}/> Your City, India</li>
+            <li className="flex items-center gap-2"><MapPin size={16}/> Chapagaun, Lalitpur</li>
           </ul>
         </div>
 
