@@ -2,9 +2,9 @@ import { Helmet } from 'react-helmet-async'
 import TestimonialCard, { Testimonial } from '../components/TestimonialCard'
 
 const list: Testimonial[] = [
-  { name:'Prasad Family', location:'Pune', message:'गृहप्रवेश पूजन अत्यन्त शुद्ध र विधिपूर्वक सम्पन्न भयो।', rating:5 },
-  { name:'Agarwal Parivar', location:'Jaipur', message:'सम्पूर्ण संस्कार परम्परागत रूपमा सम्पन्न।', rating:5 },
-  { name:'Kapoor Family', location:'Gurugram', message:'समयको पालना र सजिलो बुझाइ।', rating:4 }
+  { name:'Rajani Khadka', location:'Lalitpur', message:'गृहप्रवेश पूजन अत्यन्त शुद्ध र विधिपूर्वक सम्पन्न भयो।', rating:5 },
+  { name:'Shankhar Subedi', location:'Lalitpur', message:'सम्पूर्ण संस्कार परम्परागत रूपमा सम्पन्न।', rating:5 },
+  { name:'Rohit Shrestha', location:'Kathmandu', message:'समयको पालना र सजिलो बुझाइ।', rating:4 }
 ]
 
 export default function Testimonials() {
