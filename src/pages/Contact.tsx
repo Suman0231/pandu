@@ -55,7 +55,7 @@ export default function Contact() {
         <div className="mt-8 aspect-[16/9] rounded-2xl overflow-hidden border border-primary-100">
           <iframe
             title="Google Map"
-            src="https://www.google.com/maps?q=New+Delhi&output=embed"
+            src="https://maps.app.goo.gl/RVYnhBwsCzAYNYQ17"
             className="w-full h-full"
             loading="lazy"
           ></iframe>
