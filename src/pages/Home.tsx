@@ -32,7 +32,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid lg:grid-cols-2 gap-8 items-center">
           <div>
             <div className="text-primary-700 shloka text-xl">“ॐ सह नाववतु। सह नौ भुनक्तु। सह वीर्यं करवावहै।”</div>
-            <h1 className="mt-4 text-4xl md:text-5xl font-bold text-gray-900">वैदिक पुरोहित • 5+ वर्षको अनुभव</h1>
+            <h1 className="mt-4 text-4xl md:text-5xl font-bold text-gray-900">वैदिक पुरोहित • ५+ वर्षको अनुभव</h1>
             <p className="mt-4 text-gray-700">परम्परागत विधिबाट सबै कर्मकाण्ड — पूजा, हवन, संस्कार, तथा अनलाइन सेवाहरू।</p>
             <div className="mt-6 flex gap-4">
               <Link to="/services" className="bg-primary-600 text-white px-5 py-3 rounded-lg">सेवाहरू हेर्नुहोस्</Link>
