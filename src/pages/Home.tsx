@@ -12,8 +12,8 @@ const services: Service[] = [
 ]
 
 const testimonials: Testimonial[] = [
-  { name: 'Sharma Family', location: 'Mumbai', message: 'विधिपूर्वक पूजा र सरल मार्गदर्शन—पूर्ण रूपमा सन्तुष्ट!', rating: 5 },
-  { name: 'Verma Ji', location: 'Delhi', message: 'समयमै, अनुशासित र परम्परागत तरिकाले अनुष्ठान।', rating: 5 }
+  { name: 'Sharma Family', location: 'Lalitpur', message: 'विधिपूर्वक पूजा र सरल मार्गदर्शन—पूर्ण रूपमा सन्तुष्ट!', rating: 5 },
+  { name: 'Aashutosh', location: 'Bhaktapur', message: 'समयमै, अनुशासित र परम्परागत तरिकाले अनुष्ठान।', rating: 5 }
 ]
 
 const blogs: BlogItem[] = [
