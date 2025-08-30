@@ -40,7 +40,7 @@ export default function Navbar() {
           ))}
           <li>
             <a
-              href="tel:+919876543210"
+              href="tel:+977 9860384392"
               className="inline-flex items-center gap-2 bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
             >
               <Phone size={16} /> Call
