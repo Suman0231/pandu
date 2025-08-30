@@ -12,9 +12,9 @@ export default function Testimonials() {
     <>
       <Helmet><title>आशीर्वचन</title></Helmet>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6">आशीर्वचन</h1>
+        <h1 className="text-3xl font-bold text-gray-900 mb-6 animate-fadeInUp gradient-text">आशीर्वचन</h1>
         <div className="grid md:grid-cols-2 gap-6">
-          {list.map((t, i) => <TestimonialCard key={i} t={t} />)}
+          {list.map((t, i) => <TestimonialCard key={i} t={t} index={i} />)}
         </div>
       </div>
     </>

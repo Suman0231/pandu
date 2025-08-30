@@ -16,9 +16,9 @@ export default function Services() {
     <>
       <Helmet><title>सेवाहरू</title></Helmet>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6">सेवाहरू</h1>
+        <h1 className="text-3xl font-bold text-gray-900 mb-6 animate-fadeInUp gradient-text">सेवाहरू</h1>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {allServices.map(s => <ServiceCard key={s.key} service={s} />)}
+          {allServices.map((s, i) => <ServiceCard key={s.key} service={s} index={i} />)}
         </div>
       </div>
     </>

@@ -12,9 +12,9 @@ export default function Blog() {
     <>
       <Helmet><title>लेखहरू</title></Helmet>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6">लेखहरू</h1>
+        <h1 className="text-3xl font-bold text-gray-900 mb-6 animate-fadeInUp gradient-text">लेखहरू</h1>
         <div className="grid md:grid-cols-2 gap-6">
-          {posts.map((p,i) => <BlogCard key={i} item={p} />)}
+          {posts.map((p,i) => <BlogCard key={i} item={p} index={i} />)}
         </div>
       </div>
     </>
